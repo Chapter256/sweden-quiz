@@ -8,4 +8,58 @@ function renderquiz() {
     console.log("renderquiz is happening");
 }
 
+function checkAnswer() {
 
+}
+
+function calculateCorrectAnswer() {
+    
+}
+
+function incrementScore() {
+    
+}
+
+function incrementWrongAnswer() {
+    
+}
+
+function displayFirstQuestion() {
+    
+}
+
+function displaySecondQuestion() {
+    
+}
+
+function displayThirdQuestion() {
+    
+}
+
+function displayForthQuestion() {
+    
+}
+
+function displayFifthQuestion() {
+    
+}
+
+function displaySixthQuestion() {
+    
+}
+
+function displaySeventhQuestion() {
+    
+}
+
+function displayEighthQuestion() {
+    
+}
+
+function displayNinthQuestion() {
+    
+}
+
+function displayTenthQuestion() {
+    
+}
