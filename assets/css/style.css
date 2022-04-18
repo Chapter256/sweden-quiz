@@ -19,3 +19,41 @@ body {
 
 
 /* Buttons */ 
+.start-btn {
+    position: absolute;
+    top: 40%; 
+    right: 50%; 
+    transform: translate(-50%, -50%)
+}
+
+.how-to-btn {
+    position: absolute;
+    top: 40%; 
+    left: 60%; 
+    transform: translate(-50%, -50%)
+}
+
+/* Styling for buttons*/ 
+.start-btn button {
+    font-size: 25px;
+    font-weight: 500;
+    color: #31708E;
+    padding: 25px 40px; 
+    outline: none; 
+    border: none; 
+    border-radius: 5px;
+    background: #F7F9FB; 
+    cursor: pointer;
+}
+
+.how-to-btn button {
+    font-size: 25px;
+    font-weight: 500;
+    color: #31708E;
+    padding: 25px 40px; 
+    outline: none; 
+    border: none; 
+    border-radius: 5px;
+    background: #F7F9FB; 
+    cursor: pointer;
+}
