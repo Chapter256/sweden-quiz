@@ -91,9 +91,9 @@ body {
     
     /* The Close Button */
        .close {
-        color: #aaa;
+        color: rgb(0, 0, 0);
         float: right;
-        font-size: 28px;
+        font-size: 38px;
         font-weight: bold;
     }
     
