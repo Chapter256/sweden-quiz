@@ -39,15 +39,20 @@ function rendernextquestion() {
     }
 }
 
+function createQuestionElement(questionText) {
+    var questionElem = document.createElement("div");
+    questionElem.innerText = questionText;
+    questionElem.classList.add("questionElem");
+    questionElem.style.border = "5px solid black";
+    return questionElem; 
+}
 
 function displayFirstQuestion() {
     var questionElems = document.getElementsByClassName("questionElem");
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = document.createElement("div");
-    questionone.innerText = "I'm question one";
-    questionone.classList.add("questionElem");
+    var questionone = createQuestionElement("What is the capital of Sweden?")
     document.body.appendChild(questionone);
 }
 
@@ -56,10 +61,8 @@ function displaySecondQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questiontwo = document.createElement("div");
-    questiontwo.innerText = "I'm question two";
-    questiontwo.classList.add("questionElem");
-    document.body.appendChild(questiontwo);
+    var questionone = createQuestionElement("What is the currency of Sweden?")
+    document.body.appendChild(questionone);
 }
 
 function displayThirdQuestion() {
@@ -67,10 +70,8 @@ function displayThirdQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionthree = document.createElement("div");
-    questionthree.innerText = "I'm question three";
-    questionthree.classList.add("questionElem");
-    document.body.appendChild(questionthree);
+    var questionone = createQuestionElement("Which of these stores are not Swedish?")
+    document.body.appendChild(questionone);
 }
 
 function displayFourthQuestion() {
@@ -78,10 +79,8 @@ function displayFourthQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionfour = document.createElement("div");
-    questionfour.innerText = "I'm question four";
-    questionfour.classList.add("questionElem");
-    document.body.appendChild(questionfour);
+    var questionone = createQuestionElement("What is the highest Mountain in Sweden called?")
+    document.body.appendChild(questionone);
 }
 
 function displayFifthQuestion() {
@@ -89,10 +88,8 @@ function displayFifthQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionfive = document.createElement("div");
-    questionfive.innerText = "I'm question five";
-    questionfive.classList.add("questionElem");
-    document.body.appendChild(questionfive);
+    var questionone = createQuestionElement("What is a 'fika'?")
+    document.body.appendChild(questionone);
 }
 
 function displaySixthQuestion() {
@@ -100,10 +97,8 @@ function displaySixthQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionsix = document.createElement("div");
-    questionsix.innerText = "I'm question six";
-    questionsix.classList.add("questionElem");
-    document.body.appendChild(questionsix);   
+    var questionone = createQuestionElement("What is the national animal of Sweden?")
+    document.body.appendChild(questionone);
 }
 
 function displaySeventhQuestion() {
@@ -111,10 +106,8 @@ function displaySeventhQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionseven = document.createElement("div");
-    questionseven.innerText = "I'm question seven";
-    questionseven.classList.add("questionElem");
-    document.body.appendChild(questionseven);  
+    var questionone = createQuestionElement("What is the country number/prefix for Sweden?")
+    document.body.appendChild(questionone);
 }
 
 // Write a function that will restart the quiz
