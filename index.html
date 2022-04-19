@@ -33,12 +33,26 @@
     - Welcome text to user -  -->
     <!-- Start Quiz Button -->
     <div class="start-btn" id="start-btn" aria-label="Press the button to start the quiz"> <button>Start Quiz</button></div>
-    
-    <!-- Link to below-->
-    <a href="quiz.html"></a> 
-    
-    <!-- How to Play Button-->
-     <div class="how-to-btn" aria-label="Press the button for information on how to play"> <button>How to Play</button> </div>
+ 
+
+
+    <!-- How to Play section-->
+
+    <!-- How to Play Button-->  
+    <div class="how-to-play-btn" id="how-to-play-btn" aria-label="Press the button to open How to Play page"><button>How to Play</button></div>
+        
+    <!-- The "How to Play" Modal -->
+        <div id="myModal" class="modal">
+
+            <div class="how-to-play-content">
+                <span class="close">&times;</span>
+                <p>Click "Start Quiz" to begin the quiz.</p>
+                <p>There are a total of ten questions that equal to ten points.</p>
+                <p>You need to get six questions correct to pass the challenge.</p>
+                <p>Good luck!</p>
+            </div>
+        </div>
+
 
     <!-- JavaScript script-->
     <script src="assets/js/script.js"></script>
