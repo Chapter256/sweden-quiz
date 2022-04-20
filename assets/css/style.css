@@ -20,45 +20,55 @@ body {
     text-decoration: none;
 }
 
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: #F7F9FB; 
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.19);
+} 
 
-/* Buttons */ 
-.start-btn {
-    position: absolute;
-    top: 40%; 
-    right: 50%; 
-    transform: translate(-50%, -50%)
-}
-.how-to-play-btn {    
-    position: absolute;
-    top: 40%; 
-    left: 60%; 
-    transform: translate(-50%, -50%)
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px; 
+    margin: 20px; 
 }
 
-/* Styling for buttons*/ 
-.start-btn button {
-    font-size: 25px;
-    font-weight: 500;
-    color: #31708E;
-    padding: 25px 40px; 
-    outline: none; 
-    border: none; 
+.btn {
+    border: 1px solid #31708E; 
+    background-color: #31708E;
     border-radius: 5px;
-    background: #F7F9FB; 
-    cursor: pointer;
+    padding: 5px 10px;
+    color: #F7F9FB;
+    outline: none; 
+    cursor: pointer; 
 }
 
-.how-to-play-btn button {
-    font-size: 25px;
-    font-weight: 500;
-    color: #31708E;
-    padding: 25px 40px; 
-    outline: none; 
-    border: none; 
-    border-radius: 5px;
-    background: #F7F9FB; 
-    cursor: pointer;
+.btn:hover {
+    border-color: black;
 }
+
+.start-btn, .how-to-play-btn {
+    font-size: x-large;
+    font-weight: 50;
+    padding: 10px 20px; 
+    margin: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hide {
+    display: none;
+}
+
+
+
 
 /* The How to Play modal */
 .modal {
@@ -80,7 +90,7 @@ body {
         margin: 15% auto; 
         padding: 20px;
         border: 1px solid #31708E;
-        width: 80%; /* Could be more or less, depending on screen size */
+        width: 80%; 
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
     
