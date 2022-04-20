@@ -1,3 +1,7 @@
+const startButton = document.getElementById("start-btn")
+const howtoPlayButton = document.getElementById("how-to-play-btn")
+const questionContainerElement = document.getElementById("question-container")
+
 document.addEventListener("DOMContentLoaded", function() {
     // let buttons = document.getElementsByTagName("button"); 
     
@@ -8,6 +12,9 @@ document.addEventListener("DOMContentLoaded", function() {
     startBtn.onclick = function(event) {
         console.log("button clicked");
         rendernextquestion();
+        startButton.classList.add("hide");
+        howtoPlayButton.classList.add("hide");
+        questionContainerElement.classList.remove("hide");
     }
 })
 
