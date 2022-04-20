@@ -22,10 +22,14 @@ body {
 
 .container {
     width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 80%;
+    margin: 0 auto; 
+    padding: 10px;
     background-color: #F7F9FB; 
     border-radius: 10px;
-    padding: 10px;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.19);
 } 
 
