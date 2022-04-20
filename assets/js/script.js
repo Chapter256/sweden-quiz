@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+
 var currentquestion = 0; 
 function rendernextquestion() {
     currentquestion++; 
@@ -39,11 +40,24 @@ function rendernextquestion() {
     }
 }
 
-function createQuestionElement(questionText) {
+function createQuestionElement(questionText, A1, A2, A3, A4) {
+    console.log("createQuestionElement is running");
     var questionElem = document.createElement("div");
     questionElem.innerText = questionText;
     questionElem.classList.add("questionElem");
     questionElem.style.border = "5px solid black";
+    var A1Elem = document.createElement("div");
+    A1Elem.innerText = A1;
+    questionElem.appendChild(A1Elem);
+    var A2Elem = document.createElement("div");
+    A2Elem.innerText = A2;
+    questionElem.appendChild(A2Elem);
+    var A3Elem = document.createElement("div");
+    A3Elem.innerText = A3;
+    questionElem.appendChild(A3Elem);
+    var A4Elem = document.createElement("div");
+    A4Elem.innerText = A4;
+    questionElem.appendChild(A4Elem);
     return questionElem; 
 }
 
@@ -52,7 +66,7 @@ function displayFirstQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = createQuestionElement("What is the capital of Sweden?")
+    var questionone = createQuestionElement("What is the capital of Sweden?", "Helsingborg", "Stockholm", "Gothenburg", "Uppsala")
     document.body.appendChild(questionone);
 }
 
@@ -61,7 +75,7 @@ function displaySecondQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = createQuestionElement("What is the currency of Sweden?")
+    var questionone = createQuestionElement("What is the currency of Sweden?", "Swedish dollars (SWED)", "Swedish crowns (SEK)", "Swedish pesos (SEP)", "Scandinavian swish (SDW)")
     document.body.appendChild(questionone);
 }
 
@@ -70,7 +84,7 @@ function displayThirdQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = createQuestionElement("Which of these stores are not Swedish?")
+    var questionone = createQuestionElement("Which of these is not originally Swedish?", "H&M", "IKEA", "Volvo", "Apple")
     document.body.appendChild(questionone);
 }
 
@@ -79,7 +93,7 @@ function displayFourthQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = createQuestionElement("What is the highest Mountain in Sweden called?")
+    var questionone = createQuestionElement("What is the highest Mountain in Sweden called?", "Vikingmountain", "Kebnekaise", "Storberget (big mountain)", "Mount Everest")
     document.body.appendChild(questionone);
 }
 
@@ -88,7 +102,7 @@ function displayFifthQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = createQuestionElement("What is a 'fika'?")
+    var questionone = createQuestionElement("Who is the current King of Sweden?", "Gustav Vasa", "Car XVI Gustaf", "Hans Åberg", "Jorgen the second of Sweden")
     document.body.appendChild(questionone);
 }
 
@@ -97,7 +111,7 @@ function displaySixthQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = createQuestionElement("What is the national animal of Sweden?")
+    var questionone = createQuestionElement("What is the national animal of Sweden?", "Arctic fox", "Eurasian elk", "Brown bear", "Deer")
     document.body.appendChild(questionone);
 }
 
@@ -106,7 +120,7 @@ function displaySeventhQuestion() {
     for (var e of questionElems){
         e.remove();
     }
-    var questionone = createQuestionElement("What is the country number/prefix for Sweden?")
+    var questionone = createQuestionElement("What languages is Swedish the closest to?", "German & Finnish", "Danish & Norweigan", "Finnish & French", "Scandinavian & German")
     document.body.appendChild(questionone);
 }
 
