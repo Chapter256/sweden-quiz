@@ -8,21 +8,16 @@ body {
 }
 
 .heading {
-    color: #31708E;
-}
-
-.navbar {
-    font-size: x-large;
+    font-size: xx-large;
     letter-spacing: 4px;
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: #F7F9FB; 
     border: none;
-    color: white;
-    padding: 30px 64px;
+    color: #31708E;
+    padding: 60px 64px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
 }
 
 
