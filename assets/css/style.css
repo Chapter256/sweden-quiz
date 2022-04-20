@@ -61,6 +61,19 @@ body {
     margin: 5px;
 }
 
+#next-btn {
+    font-size: large;
+    font-weight: 50;
+    padding: 10px 20px; 
+    margin: 5px;   
+    outline: none; 
+    cursor: pointer; 
+}
+
+.next-btn:hover {
+    border-color: black;
+}
+
 .controls {
     display: flex;
     justify-content: center;

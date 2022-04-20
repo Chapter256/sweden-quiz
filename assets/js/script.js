@@ -1,5 +1,6 @@
 const startButton = document.getElementById("start-btn")
 const howtoPlayButton = document.getElementById("how-to-play-btn")
+const nextButton = document.getElementById("next-btn")
 const questionContainerElement = document.getElementById("question-container")
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -14,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
         rendernextquestion();
         startButton.classList.add("hide");
         howtoPlayButton.classList.add("hide");
+        nextButton.classList.remove("hide");
         questionContainerElement.classList.remove("hide");
     }
 })
