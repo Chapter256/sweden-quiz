@@ -20,27 +20,38 @@
         <div class="navbar">
             <h1 class="heading">Sweden Quiz 
             </h1>
-            <nav>
+            <!-- <nav>
                 <a href="index.html" aria-label="Jump to the Home Page">Home Page</a>
                 <a href="howtoplay.html" aria-label="Jump to the How to Play Page">How to Play</a>
                 <a href="leaderboard.html" aria-label="Jump to the leaderboard">Leaderboard</a>
             </nav>
-        </div>   
+        </div>    -->
     </header>
 
 
     <!-- - image of Sweden - 
     - Welcome text to user -  -->
-    <!-- Start Quiz Button -->
-    <div class="start-btn" id="start-btn" aria-label="Press the button to start the quiz"> <button>Start Quiz</button></div>
- 
 
 
-    <!-- How to Play section-->
+    <!-- Quiz area-->
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <!--Start button & How to Play button-->
+            <button id="start-btn" class="start-btn btn" aria-label="Press the button to start the quiz">Start Quiz</button>
+            <button id="how-to-play-btn" class="how-to-play-btn btn" aria-label="Press the button to open How to Play page">How to Play</button>
+        </div>
+    </div>
 
-    <!-- How to Play Button-->  
-    <div class="how-to-play-btn" id="how-to-play-btn" aria-label="Press the button to open How to Play page"><button>How to Play</button></div>
-        
+
     <!-- The "How to Play" Modal -->
         <div id="myModal" class="modal">
 
