@@ -91,11 +91,14 @@ h3 {
     color: #F7F9FB;
     background-color: #31708E;
     border-radius: 0.5rem;
-    cursor: pointer; 
 }
 
 .btn:hover {
+    cursor: pointer; 
     border-color: black;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.19);
+    transform: translateY(-0.1rem); 
+    transition: transform 150ms; 
 }
 
 .start-btn, .how-to-play-btn {
