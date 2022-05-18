@@ -81,12 +81,16 @@ h3 {
 }
 
 .btn {
-    border: 1px solid #31708E; 
-    background-color: #31708E;
-    border-radius: 5px;
-    padding: 5px 10px;
+    font-size: 1.8rem; 
+    padding: 1rem 0; 
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #31708E; 
+    margin-bottom: 1rem; 
+    text-decoration: none;
     color: #F7F9FB;
-    outline: none; 
+    background-color: #31708E;
+    border-radius: 0.5rem;
     cursor: pointer; 
 }
 
