@@ -50,7 +50,6 @@ function rendernextquestion() {
 }
 
 function createQuestionElement(questionText, A1, A2, A3, A4) {
-    console.log("createQuestionElement is running");
     var questionElem = document.createElement("div");
     questionElem.innerText = questionText;
     questionElem.classList.add("questionElem");
