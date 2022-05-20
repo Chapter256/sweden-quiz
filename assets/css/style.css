@@ -1,6 +1,6 @@
 /* Basic style for all elements */
 :root {
-    background-color: #8FC1E3; 
+    background-color: #004B87; 
     font-size: 62.5%; 
 }
 
@@ -21,7 +21,7 @@ h4 {
 
 h1 {
     font-size: 5.4rem; 
-    color: #31708E; 
+    color: #004B87; 
     margin-bottom: 5rem; 
 }
 
@@ -32,7 +32,7 @@ h1 > span {
 
 h2 {
     font-size: 4.2rem; 
-    color: #31708E; 
+    color: #004B87; 
     margin-bottom: 5rem;
     font-weight: 700;  
 }
@@ -51,7 +51,7 @@ p {
     letter-spacing: 4px;
     box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    background-color: #F7F9FB; 
+    background-color: #FFCD00; 
     border: none;
     /* color: #31708E; */
     padding: 60px 64px;
@@ -113,11 +113,11 @@ p {
     padding: 1rem 0; 
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #31708E; 
+    border: 0.1rem solid #004B87; 
     margin-bottom: 1rem; 
     text-decoration: none;
     color: #F7F9FB;
-    background-color: #31708E;
+    background-color: #004B87;
     border-radius: 0.5rem;
 }
 
@@ -138,15 +138,15 @@ p {
 
 #next-btn {
     font-size: 1.8rem; 
-    padding: 1.8rem 0; 
-    width: 15rem;
+    padding: 1rem 0; 
+    width: 20rem;
     text-align: center;
-    border: 0.2rem solid #31708E; 
+    border: 0.1rem solid #004B87; 
+    margin-bottom: 1rem; 
     text-decoration: none;
     color: #F7F9FB;
-    background-color: #31708E;
-    border-radius: 0.2rem;
-    cursor: pointer;    
+    background-color: #004B87;
+    border-radius: 0.5rem;  
 } 
 
 #next-btn:hover {
@@ -179,10 +179,10 @@ p {
     
 /* How to Play Content/Box */
 .how-to-play-content {
-    background-color: #8FC1E9;
+    background-color: #477294;
     margin: 15% auto; 
     padding: 20px;
-    border: 1px solid #31708E;
+    border: 1px solid #004B87;
     width: 80%; 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
