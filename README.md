@@ -1,7 +1,7 @@
 # Sweden Quiz 
 
 ## General Information
-Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a single player quiz that has a total of ten questions that revolve around Sweden. the player will have two or four options on each question and can only pick one answer. At the end of the quiz the user will get their total score, passing point is six. The live demo can be found here. 
+Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a single player quiz that has a total of ten questions that revolve around Sweden. the player will have two or four options on each question and can only pick one answer. At the end of the quiz the user will get their total score, passing point is six. The live demo can be found [here](https://chapter256.github.io/sweden-quiz/).
 
 ## Features
 Sweden Quiz is a 10 question quiz, each having two or four options. Each question contains one correct answer. The goal is for the user to choose the correct answer and pass the quiz. 
@@ -33,5 +33,5 @@ Sweden Quiz is a 10 question quiz, each having two or four options. Each questio
 
 ## Credits
 * Chris Tucker for assisting me whenever I needed help or guidance with my code. 
-* Build a Quiz App - Youtube playlist, tutorial that I followed and took inspiration from. 
-* Build A Quiz App With JavaScript - Youtube video, tutorial that I followed and took inspiration from. 
+* Build a Quiz App - [Youtube playlist](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1&ab_channel=JamesQQuick), tutorial that I followed and took inspiration from. 
+* Build A Quiz App With JavaScript - [Youtube video](https://www.youtube.com/watch?v=riDzcEQbX6k&t=236s&ab_channel=WebDevSimplified), tutorial that I followed and took inspiration from. 
