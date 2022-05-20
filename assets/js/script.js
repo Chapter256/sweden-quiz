@@ -79,6 +79,7 @@ function clearStatusClass(element) {
   element.classList.remove("wrong")
 }
 
+//Questions 
 const questions = [
   {
     question: "What is the highest Mountain in Sweden called?", 
