@@ -1,13 +1,23 @@
 # Sweden Quiz 
-Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. Live demo can be found here. 
-
-## Table of Contents 
 
 ## General Information
+Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a single player quiz that has a total of ten questions that revolve around Sweden. the player will have two or four options on each question and can only pick one answer. At the end of the quiz the user will get their total score, passing point is six. The live demo can be found here. 
 
-## Features 
+## Features
+Sweden Quiz is a 10 question quiz, each having two or four options. Each question contains one correct answer. The goal is for the user to choose the correct answer and pass the quiz. 
+
 ### Landing Page 
-### Quiz 
+**The header**
+* The header comprises of the sites name. 
+**The 
+**The "How to play" section**
+*
+
+### Quiz section 
+* The user will press the "Start" button to start the quiz. A randomized question will appear where the user gets to choose one answer. Once the user has pressed their answer a "Next" button will appear to the right where the user can submit their answer and move on to the next question. If the user would like to change their answer, they can do so before pressing the next button. Once the user has gone through all the questions a "Restart" button will appear. 
+
+### Future Features 
+* A leaderboard where the player can save their score. 
 
 ## Technologies Used 
 * HTML was used to create the content of the webpage 
@@ -21,11 +31,7 @@ Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. Live demo
 
 ## Deployment 
 
-## Room for Improvement  
-
 ## Credits
-Chris Tucker for assisting me whenever I needed help or guidance with my code. 
-
-Tutorials that I followed and took inspiration from: 
-Build a Quiz App - Youtube playlist 
-Build A Quiz App With JavaScript - Youtube video 
+* Chris Tucker for assisting me whenever I needed help or guidance with my code. 
+* Build a Quiz App - Youtube playlist, tutorial that I followed and took inspiration from. 
+* Build A Quiz App With JavaScript - Youtube video, tutorial that I followed and took inspiration from. 
