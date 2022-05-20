@@ -54,6 +54,7 @@ h3 {
     text-decoration: none;
 }
 
+/* Containers and alignment*/
 .container {
     width: 100vw;
     height: 50vh;
@@ -62,7 +63,7 @@ h3 {
     align-items: center;
     max-width: 80rem;
     margin: 0 auto; 
-    padding: 10px;
+    padding: 2rem;
     background-color: #F7F9FB; 
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(0,0,0,0.19);
@@ -72,7 +73,29 @@ h3 {
     width: 100%;
 }
 
-/* Style for buttons */ 
+.flex-column {
+    display: flex; 
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify.center {
+    justify-content: center; 
+} 
+
+.text-center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+/* Buttons */ 
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -109,29 +132,30 @@ h3 {
 }
 
 #next-btn {
-    font-size: large;
-    font-weight: 50;
-    padding: 10px 20px; 
-    margin: 5px;   
-    outline: none; 
-    cursor: pointer; 
-}
+    font-size: 1.8rem; 
+    padding: 1.8rem 0; 
+    width: 15rem;
+    text-align: center;
+    border: 0.2rem solid #31708E; 
+    text-decoration: none;
+    color: #F7F9FB;
+    background-color: #31708E;
+    border-radius: 0.2rem;
+    cursor: pointer;    
+} 
 
-.next-btn:hover {
+#next-btn:hover {
+    cursor: pointer; 
     border-color: black;
-}
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.19);
+    transform: translateY(-0.1rem); 
+    transition: transform 150ms; }
 
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
 } 
-
-.hide {
-    display: none;
-}
-
-
 
 
 /* Style for the How to Play modal */
