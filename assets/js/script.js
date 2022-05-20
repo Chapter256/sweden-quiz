@@ -126,7 +126,7 @@ const questions = [
     ]
   }, 
   {
-    question: "", 
+    question: "What currency is used in Sweden?", 
     answers: [
       { text: "Swedish dollars (SWED)", correct: false},
       { text: "Swedish crowns (SEK)", correct: true},

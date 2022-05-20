@@ -32,6 +32,7 @@ h1 > span {
 
 h2 {
     font-size: 4.2rem; 
+    color: #31708E; 
     margin-bottom: 5rem;
     font-weight: 700;  
 }
@@ -70,7 +71,6 @@ h3 {
 .container > *{
     width: 100%;
 }
-
 
 /* Style for buttons */ 
 .btn-grid {
