@@ -99,12 +99,10 @@ const questions = [
     ]
   }, 
   {
-    question: "What is the highest Mountain in Sweden called?", 
+    question: "Is Sweden a part of the EU?", 
     answers: [
-      { text: "Kebnekaise", correct: true},
-      { text: "Vikingmountain", correct: false},
-      { text: "Big mountain", correct: false},
-      { text: "Mount Everest", correct: false}
+      { text: "Yes!", correct: true},
+      { text: "No!", correct: false},
     ]
   }, 
   {
@@ -135,6 +133,22 @@ const questions = [
     ]
   }, 
   {
+    question: "Does Skåne belong to Sweden or Denmark?", 
+    answers: [
+      { text: "Sweden", correct: true},
+      { text: "Denmark", correct: false},
+    ]
+  }, 
+  {
+    question: "What is the official name of Sweden?", 
+    answers: [
+      { text: "Sweden", correct: false},
+      { text: "Kingdomen of Sweden", correct: false},
+      { text: "Swedenland", correct: false},
+      { text: "Kingdom of Sweden", correct: true},
+    ]
+  }, 
+  {
     question: "Which of these is not originally Swedish?", 
     answers: [
       { text: "H&M", correct: false},
@@ -142,15 +156,15 @@ const questions = [
       { text: "APPLE", correct: true},
       { text: "Volvo", correct: false}
     ]
+  },
+  {
+    question: "Is Sweden a part of Scandinavia?", 
+    answers: [
+      { text: "Yes", correct: true},
+      { text: "No", correct: false},
+    ]
   }
-]
-
-
-
-
-
-
-
+]; 
 
 // Code from W3 Schools page on modal windows:  https://www.w3schools.com/howto/howto_css_modals.asp
 // Modal window opens when user clicks 'How To Play' button.
