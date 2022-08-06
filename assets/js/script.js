@@ -5,7 +5,8 @@ const questionContainerElement = document.getElementById("question-container");
 const questionElement = document.getElementById("question"); 
 const answerButtonsElement = document.getElementById("answer-buttons"); 
 
-let shuffledQuestions, currentQuestionIndex 
+let shuffledQuestions, currentQuestionIndex
+let currentscore = 0;
 
 startButton.addEventListener("click", startQuiz)
 nextButton.addEventListener("click", () => {
@@ -49,6 +50,19 @@ function resetState() {
     answerButtonsElement.removeChild(answerButtonsElement.firstChild) 
   }
 }; 
+
+function displayScore() {
+  let newDiv = document.createElement("div");
+  newDiv.style.textAlign = "center";
+  newDiv.style.fontSize = "xxx-large";
+  if (currentScore > 5) {
+      newDiv.innerText = `YOU PASSED THE QUIZ WITH A SCORE OF ${currentcore}/10!`;
+    } else {
+      newDiv.innerText = `YOU FAILED THE QUIZ WITH A SCORE OF ${currentcore}/10. Try again!`;
+    }
+    let h = document.querySelector('body > header');
+    h.appendChild(newDiv); 
+}
 
 function selectAnswer(e) {
   const selectedButton = e.target
