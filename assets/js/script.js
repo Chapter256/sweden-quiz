@@ -66,14 +66,23 @@ function displayScore() {
 
 function selectAnswer(e) {
   const selectedButton = e.target
+  let allButtons = document.getElementsByTagName("btn");
+  for (let button of allButtons) {
+    button.style.removeProperty("border");
+  }
+  selectedButton.style.border = "5px solid #FFCD00"; 
   const correct = selectedButton.dataset.correct
-  setStatusClass(document.body, correct)
+  if (correct) {
+    currentScore++
+  }
+  setStatusClass(selectButton, correct)
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove("hide")
   } else {
+    displayScore();
     startButton.innerText = "Restart"
     startButton.classList.remove("hide")
   }
