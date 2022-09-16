@@ -75,7 +75,7 @@ function selectAnswer(e) {
   if (correct) {
     currentScore++
   }
-  setStatusClass(selectButton, correct)
+  setStatusClass(selectedButton, correct)
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
