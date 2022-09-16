@@ -1,4 +1,4 @@
-const startButton = document.getElementById("start-btn"); 
+const startButton = document.getElementById("start-btn");
 const howtoPlayButton = document.getElementById("how-to-play-btn"); 
 const nextButton = document.getElementById("next-btn");
 const questionContainerElement = document.getElementById("question-container"); 
@@ -6,7 +6,7 @@ const questionElement = document.getElementById("question");
 const answerButtonsElement = document.getElementById("answer-buttons"); 
 
 let shuffledQuestions, currentQuestionIndex
-let currentscore = 0;
+let currentScore = 0;
 
 startButton.addEventListener("click", startQuiz)
 nextButton.addEventListener("click", () => {
@@ -56,9 +56,9 @@ function displayScore() {
   newDiv.style.textAlign = "center";
   newDiv.style.fontSize = "xxx-large";
   if (currentScore > 5) {
-      newDiv.innerText = `YOU PASSED THE QUIZ WITH A SCORE OF ${currentcore}/10!`;
+      newDiv.innerText = `YOU PASSED THE QUIZ WITH A SCORE OF ${currentScore}/10!`;
     } else {
-      newDiv.innerText = `YOU FAILED THE QUIZ WITH A SCORE OF ${currentcore}/10. Try again!`;
+      newDiv.innerText = `YOU FAILED THE QUIZ WITH A SCORE OF ${currentScore}/10. Try again!`;
     }
     let h = document.querySelector('body > header');
     h.appendChild(newDiv); 
