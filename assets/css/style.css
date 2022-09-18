@@ -20,21 +20,7 @@ body {
 }
 
 /* Containers and alignment*/
-    .container {
-    width: 800%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto; 
-    padding: 2rem;
-    background-color: #F7F9FB; 
-    border-radius: 10px;
-    box-shadow: 0 0 10px 2px rgba(36, 32, 32, 0.19);
-} 
-
-/* .container {
+.container {
     width: 90%;
     font-size: 2rem;
     margin: auto;
@@ -43,7 +29,7 @@ body {
     background-color: #F7F9FB; 
     border-radius: 10px;
     box-shadow: 0 0 10px 2px rgba(36, 32, 32, 0.19);
-} */
+}
 
 /* .flex-column {
     display: flex; 
