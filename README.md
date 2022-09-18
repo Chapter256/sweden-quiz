@@ -12,7 +12,10 @@ The live website can be viewed [here](https://chapter256.github.io/sweden-quiz/)
   - #### Colour scheme 
 
 #### Wireframe
-
+![Desktop wireframe 1](assets/wireframes/wireframe-quiz-option-1.jpeg)
+![Desktop wireframe 2](assets/wireframes/wireframe-quiz-option-2.jpeg)
+![Mobile wireframe](assets/wireframes/wireframe-quiz-iphone.jpeg)
+![Tablet wireframe](assets/wireframes/wireframe-quiz-ipad.jpeg)
 
 ## Features
 Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a single player quiz that has a total of ten questions that revolve around Sweden. the player will have two or four options on each question and can only pick one answer. At the end of the quiz the user will get their total score, passing point is six.
