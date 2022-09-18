@@ -12,18 +12,16 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    color: #F7F9FB;
+    background-color: #F7F9FB;
 }
 
 /*heading*/ 
 .heading {
     letter-spacing: 4px;
-    box-sizing: border-box;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: #FFCD00; 
     border: none;
     padding: 60px 64px;
-    text-align: center;
     text-decoration: none;
 }
 
