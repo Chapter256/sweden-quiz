@@ -5,12 +5,13 @@
 
 body {
     font-family: "Raleway", sans-serif;
-    background-color: #F7F9FB;
+    background-color: #004B87; 
     text-align: center;
 }
 
 /*heading*/ 
 .heading {
+    font-size: 2.5rem;
     letter-spacing: 4px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     background-color: #FFCD00; 
@@ -63,11 +64,11 @@ body {
     width: 20rem;
     text-align: center;
     border: 0.1rem solid #004B87; 
-    margin-bottom: 1rem; 
+    margin-bottom: 0.8rem; 
     text-decoration: none;
     color: #F7F9FB;
     background-color: #004B87;
-    border-radius: 0.5rem;  
+    border-radius: 1rem;  
 } 
 
 #next-btn:hover {
