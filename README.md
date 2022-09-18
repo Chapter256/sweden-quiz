@@ -6,10 +6,21 @@ The live website can be viewed [here](https://chapter256.github.io/sweden-quiz/)
 
 ## User Experience (UX)
 
--### User Stories 
+- ### User Stories 
 
--### Design
+  1. As a user, I want to test my knowledge of Sweden. 
+  2. As a user, I want to choose from a range of answers. 
+  3. As a user, I want to see my score to know if I passed or failed the quiz.
+
+
+- ### Design
   - #### Colour scheme 
+  - Used for background colour of header: 
+  ![#FFCD00](assets/design/header-colour.png)
+  - Used as background for main page as well as buttons: 
+  ![#004B87](assets/design/background-and-button-colour.png)
+  
+I choose these colours as they represent the Swedish flag. We also have black and white for text and container background. 
 
 #### Wireframe
 ![Desktop wireframe 1](assets/wireframes/wireframe-quiz-option-1.jpeg)
