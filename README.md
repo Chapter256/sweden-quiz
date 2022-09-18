@@ -39,6 +39,10 @@ Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a si
 * Has a "Start" button that the player can use to start the quiz. 
 * A "How to play" button where the user can get more information on how to play the game. Once the user presses this button a new screen appears with a short summery of the gameplay. 
 
+![Main page](assets/screenshots/home-page.png)
+
+![How to play modal](assets/screenshots/how-to-play-modal.png)
+
 #### Quiz section 
 * The user will press the "Start" button to start the quiz. A randomized question will appear where the user gets to choose one answer. Once the user has pressed their answer a "Next" button will appear to the right where the user can submit their answer and move on to the next question. If the user would like to change their answer, they can do so before pressing the next button. Once the user has gone through all the questions a "Restart" button will appear. 
 
