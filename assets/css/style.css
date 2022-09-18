@@ -93,6 +93,7 @@ body {
 }
 
 /* Style for the How to Play modal */
+
 .modal {
     display: none;
     position: fixed;
@@ -131,8 +132,7 @@ body {
     cursor: pointer;
 }
 
-/*media queries*/
-
+/* Media queries*/
 @media screen and (max-width: 816px) {
     .score {
         padding: 10px;
