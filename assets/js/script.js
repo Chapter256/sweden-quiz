@@ -18,6 +18,8 @@ nextButton.addEventListener("click", () => {
 }); 
 
 // Quiz section
+
+// Hides the start and how to play buttons and displays the first question
 function startQuiz() {
     startButton.classList.add("hide")
     howtoPlayButton.classList.add("hide")
@@ -28,11 +30,13 @@ function startQuiz() {
     setNextQuestion()
 }; 
 
+// Resets and shuffles the questions
 function setNextQuestion() {
     resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }; 
 
+// Displays the questions and answers
 function showQuestion(question) {
     questionElement.innerText = question.question
     question.answers.forEach(answer => {
