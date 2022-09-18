@@ -35,21 +35,16 @@ body {
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 10px; 
-    margin: 20px; 
 }
 
 .btn {
-    font-size: 1.8rem; 
-    padding: 1rem 0; 
-    width: 20rem;
-    text-align: center;
-    border: 0.1rem solid #004B87; 
-    margin-bottom: 1rem; 
-    text-decoration: none;
+    margin: 5px; 
+    width: 90%;
+    border-radius: 10px;
+    padding:10px;
     color: #F7F9FB;
     background-color: #004B87;
-    border-radius: 0.5rem;
+    font-size: 1.5rem;
 }
 
 .btn:hover {
