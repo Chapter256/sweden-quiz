@@ -4,7 +4,6 @@ The live website can be viewed [here](https://chapter256.github.io/sweden-quiz/)
 
 ![responsive image](assets/design/am-i-responsive.png)
 
-![  ]
 ## User Experience (UX)
 
 -### User Stories 
@@ -46,11 +45,18 @@ Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a si
 - Font Awesome and Google font was used for font resource. 
 
 ## Testing and Validation
+I used the W3C Validator and W3C CSS Validator to validate my website.
+![HTML test] (assets/screenshots/html-validator.jpeg)
+![CSS test] (assets/screenshots/css-validator.jpeg)
 
 ### Lighthouse
+- Website was tested using Lighthouse
+![Lighthouse results] (assets/screenshots/lighthouse.jpeg)
 
 ### Devices
-
+- Website was tested using Chrome and Safari.
+- The website was tested on my iMac and Macbook pro. 
+- 
 ### Testing User Stories 
 
 ## Deployment 
