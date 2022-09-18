@@ -32,6 +32,12 @@ Sweden Quiz is a 10 question quiz, each having two or four options. Each questio
 
 ## Deployment 
 
+- Github was used to deploy the project. Following the steps below: 
+1. Log onto your GitHub and locate the GitHub repositor.
+2. Navigate to the Settings, navigate to the left to the Pages 
+3. From the source section drop-down menu, select the main branch
+4. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 ## Credits
 * Build a Quiz App - [Youtube playlist](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1&ab_channel=JamesQQuick), tutorial that I followed and took inspiration from. 
 * Build A Quiz App With JavaScript - [Youtube video](https://www.youtube.com/watch?v=riDzcEQbX6k&t=236s&ab_channel=WebDevSimplified), tutorial that I followed and took inspiration from. 
