@@ -1,5 +1,14 @@
 # Sweden Quiz 
 
+## User Experience (UX)
+
+-### User Stories 
+
+-### Design
+  - #### Colour scheme 
+
+#### Wireframe
+
 ## General Information
 Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a single player quiz that has a total of ten questions that revolve around Sweden. the player will have two or four options on each question and can only pick one answer. At the end of the quiz the user will get their total score, passing point is six. The live demo can be found [here](https://chapter256.github.io/sweden-quiz/).
 
@@ -21,18 +30,38 @@ Sweden Quiz is a 10 question quiz, each having two or four options. Each questio
 * Head to head remote play 
 
 ## Technologies Used 
-* HTML was used to create the content of the webpage 
-* CSS was used to style the webpage as well as specify the layout. 
-* JavaScript was used to create the interactions between the user and the webpage. 
-* Gitpod was used as an editior to write and run the code. 
-* Github was used as a software hosting platform to keep the project in a remote location. 
-* Font Awesome and Google font was used for font resource. 
+### Languages
+- HTML was used to create the content of the webpage 
+- CSS was used to style the webpage as well as specify the layout. 
+- JavaScript was used to create the interactions between the user and the webpage. 
+### Programmes used
+- Balsamiq was used to create the wireframe. 
+- Gitpod was used as an editior to write and run the code. 
+- Github was used as a software hosting platform to keep the project in a remote location.
+- Chrome developer tools was used for troubleshooting and checking compability. 
+- Am I responsive was used to test if the website was responsive on different screen sizes.
+- Font Awesome and Google font was used for font resource. 
 
 ## Testing and Validation
 
+### Lighthouse
+
+### Devices
+
+### Testing User Stories 
+
 ## Deployment 
 
+- Github was used to deploy the project. Following the steps below: 
+1. Log onto your GitHub and locate the GitHub repositor.
+2. Navigate to the Settings, navigate to the left to the Pages 
+3. From the source section drop-down menu, select the main branch
+4. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 ## Credits
-* Chris Tucker for assisting me whenever I needed help or guidance with my code. 
 * Build a Quiz App - [Youtube playlist](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1&ab_channel=JamesQQuick), tutorial that I followed and took inspiration from. 
 * Build A Quiz App With JavaScript - [Youtube video](https://www.youtube.com/watch?v=riDzcEQbX6k&t=236s&ab_channel=WebDevSimplified), tutorial that I followed and took inspiration from. 
+
+### Acknowledgments: 
+- Code Institute for course material and content 
+- My friend, Chris Tucker for assisting me whenever I needed help or guidance with my project. 
