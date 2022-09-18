@@ -75,13 +75,11 @@ body {
 }
 
 #next-btn {
-    font-size: 1.8rem; 
-    padding: 1rem 0; 
+    font-size: 1.4rem; 
+    padding: 0.6rem 0; 
     width: 20rem;
     text-align: center;
-    border: 0.1rem solid #004B87; 
-    margin-bottom: 0.8rem; 
-    text-decoration: none;
+    border: 1px solid #004B87; 
     color: #F7F9FB;
     background-color: #004B87;
     border-radius: 1rem;  
