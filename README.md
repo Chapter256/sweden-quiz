@@ -33,6 +33,9 @@ Sweden Quiz is a 10 question quiz, each having two or four options. Each questio
 ## Deployment 
 
 ## Credits
-* Chris Tucker for assisting me whenever I needed help or guidance with my code. 
 * Build a Quiz App - [Youtube playlist](https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=1&ab_channel=JamesQQuick), tutorial that I followed and took inspiration from. 
 * Build A Quiz App With JavaScript - [Youtube video](https://www.youtube.com/watch?v=riDzcEQbX6k&t=236s&ab_channel=WebDevSimplified), tutorial that I followed and took inspiration from. 
+
+### Acknowledgments: 
+- Code Institute for course material and content 
+- My friend, Chris Tucker for assisting me whenever I needed help or guidance with my project. 
