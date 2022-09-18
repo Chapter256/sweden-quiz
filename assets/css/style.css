@@ -32,11 +32,6 @@ body {
 }
 
 /* Buttons */ 
-.btn-grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-}
-
 .btn {
     margin: 5px; 
     width: 90%;
