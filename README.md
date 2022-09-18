@@ -30,6 +30,12 @@ Sweden Quiz is a 10 question quiz, each having two or four options. Each questio
 
 ## Testing and Validation
 
+### Lighthouse
+
+### Devices
+
+### Testing User Stories 
+
 ## Deployment 
 
 - Github was used to deploy the project. Following the steps below: 
