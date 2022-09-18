@@ -72,7 +72,13 @@ I used the W3C Validator and W3C CSS Validator to validate my website.
 - The website was tested on my iMac and Macbook pro. 
 - 
 ### Testing User Stories 
-
+1. As a user, I want to test my knowledge of Sweden.
+  - There are 10 questions that will test the general knowledge one has of Sweden. 
+2. As a user, I want to choose from a range of answers.
+  - For each question there is either two or four options to choose from. 
+3. As a user, I want to see my score to know if I passed or failed the quiz.
+  - At the end of the quiz the player is informed if they passed or failed. 
+ 
 ## Deployment 
 
 - Github was used to deploy the project. Following the steps below: 
