@@ -46,12 +46,12 @@ Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a si
 
 ## Testing and Validation
 I used the W3C Validator and W3C CSS Validator to validate my website.
-![HTML test] (assets/screenshots/html-validator.jpeg)
-![CSS test] (assets/screenshots/css-validator.jpeg)
+![HTML test](assets/screenshots/html-validator.jpeg)
+![CSS test](assets/screenshots/css-validator.jpeg)
 
 ### Lighthouse
 - Website was tested using Lighthouse
-![Lighthouse results] (assets/screenshots/lighthouse.jpeg)
+![Lighthouse results](assets/screenshots/lighthouse.jpeg)
 
 ### Devices
 - Website was tested using Chrome and Safari.
