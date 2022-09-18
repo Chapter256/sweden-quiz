@@ -1,5 +1,14 @@
 # Sweden Quiz 
 
+## User Experience (UX)
+
+-### User Stories 
+
+-### Design
+  - #### Colour scheme 
+
+#### Wireframe
+
 ## General Information
 Sweden Quiz is a quick and easy quiz to test your knowledge of Sweden. It's a single player quiz that has a total of ten questions that revolve around Sweden. the player will have two or four options on each question and can only pick one answer. At the end of the quiz the user will get their total score, passing point is six. The live demo can be found [here](https://chapter256.github.io/sweden-quiz/).
 
