@@ -4,6 +4,7 @@
 }
 
 body {
+    font-family: "Raleway", sans-serif;
     margin: 0; 
     padding: 0;
     display: flex;
@@ -13,23 +14,6 @@ body {
     align-items: center;
     color: #F7F9FB;
 }
-
-
-font-family: "Raleway", sans-serif;
-
-/* :root {
-    box-sizing: border-box; 
-    background-color: #004B87; 
-    font-size: 62.5%;
-}
-
-* {
-    /* box-sizing: border-box;  */
-    /* font-family: "Raleway", sans-serif;
-    margin: 0; 
-    padding: 0; 
-    color: #F7F9FB; 
-} */
 
 .heading {
     letter-spacing: 4px;
