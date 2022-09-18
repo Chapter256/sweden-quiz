@@ -4,6 +4,9 @@ The live website can be viewed [here](https://chapter256.github.io/sweden-quiz/)
 
 ![responsive image](assets/design/am-i-responsive.png)
 
+## Introduction
+The goal of this website is to use HTML, CSS and JavaScript to create an interactive front-end website. A website that will respond to users actions. Figured that since I'm Swedish it could be fun with a little Quiz about Sweden. 
+
 ## User Experience (UX)
 
 - ### User Stories 
@@ -11,7 +14,6 @@ The live website can be viewed [here](https://chapter256.github.io/sweden-quiz/)
   1. As a user, I want to test my knowledge of Sweden. 
   2. As a user, I want to choose from a range of answers. 
   3. As a user, I want to see my score to know if I passed or failed the quiz.
-
 
 - ### Design
   - #### Colour scheme 
