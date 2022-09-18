@@ -1,3 +1,4 @@
+//Variables
 const startButton = document.getElementById("start-btn");
 const howtoPlayButton = document.getElementById("how-to-play-btn"); 
 const nextButton = document.getElementById("next-btn");
@@ -5,15 +6,18 @@ const questionContainerElement = document.getElementById("question-container");
 const questionElement = document.getElementById("question"); 
 const answerButtonsElement = document.getElementById("answer-buttons"); 
 
-let shuffledQuestions, currentQuestionIndex
+let shuffledQuestions, currentQuestionIndex;
 let currentScore = 0;
 
+//Event listeners
 startButton.addEventListener("click", startQuiz)
+
 nextButton.addEventListener("click", () => {
     currentQuestionIndex++ 
     setNextQuestion()
 }); 
 
+// Quiz section
 function startQuiz() {
     startButton.classList.add("hide")
     howtoPlayButton.classList.add("hide")
