@@ -2,7 +2,7 @@
 
 The live website can be viewed [here](https://chapter256.github.io/sweden-quiz/).
 
-![responsive image](.assets/design/am-i-responsive.png)
+![responsive image](assets/design/am-i-responsive.png)
 
 ![  ]
 ## User Experience (UX)
