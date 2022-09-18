@@ -44,7 +44,6 @@ body {
 }
 
 /* Buttons */
-
 .btn-grid {
     display: flex; 
     flex-direction: column;
@@ -71,10 +70,8 @@ body {
 }
 
 .start-btn, .how-to-play-btn {
-    font-size: 2.5rem;
-    font-weight: 50;
-    padding: 1rem 1rem; 
-    margin: 1.2rem; 
+    width:50%;
+    margin: 10px 0; 
 }
 
 #next-btn {
