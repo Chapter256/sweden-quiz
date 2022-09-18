@@ -21,12 +21,17 @@ Sweden Quiz is a 10 question quiz, each having two or four options. Each questio
 * Head to head remote play 
 
 ## Technologies Used 
-* HTML was used to create the content of the webpage 
-* CSS was used to style the webpage as well as specify the layout. 
-* JavaScript was used to create the interactions between the user and the webpage. 
-* Gitpod was used as an editior to write and run the code. 
-* Github was used as a software hosting platform to keep the project in a remote location. 
-* Font Awesome and Google font was used for font resource. 
+### Languages
+- HTML was used to create the content of the webpage 
+- CSS was used to style the webpage as well as specify the layout. 
+- JavaScript was used to create the interactions between the user and the webpage. 
+### Programmes used
+- Balsamiq was used to create the wireframe. 
+- Gitpod was used as an editior to write and run the code. 
+- Github was used as a software hosting platform to keep the project in a remote location.
+- Chrome developer tools was used for troubleshooting and checking compability. 
+- Am I responsive was used to test if the website was responsive on different screen sizes.
+- Font Awesome and Google font was used for font resource. 
 
 ## Testing and Validation
 
